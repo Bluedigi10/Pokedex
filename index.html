@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script>
     <title>Pokedex</title>
 </head>
 <body>
-    <nav>
-        <div>Pokedex</div>
+    <nav id="enca">
+        <div id="titulo">Pokedex</div>
     </nav>
     <main>
-        <div id="pokemon">
+        <form action="" onsubmit="">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+        <div data-poke-card class="pokecard">
+            <div data-poke-name></div>
+            <div data-poke-img>
+                <img src="imgs/pokemon-siluete.png" alt="">
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
         </div>
+        <div class="tipo-agua">AGUA</div>
     </main>
 </body>
 </html>
