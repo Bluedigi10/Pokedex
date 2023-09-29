@@ -1,0 +1,23 @@
+#enca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enca{
+    background-color: red;
+}
+#titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+    -webkit-text-stroke: 2px blue;
+}
+.tipo-agua{
+    display: inline;
+    padding: 10px;
+    margin: 1px;
+    border: 1px;
+    width: 10px;
+    border-radius: 25%;
+    background-color: #0596C7;
+}
